@@ -2,11 +2,12 @@
 ("h1",
 {id:"heading",xyz:"abc"},
 "Hello World in React!"); */
-{/* <div id="parent">
+/*  <div id="parent">
     <div id="child">
         <h1>My Name is MSY Suressh Kumar</h1>
     </div>
-</div> */}
+    ReactElement(object)=Html(Browser understandsn)
+</div>  */
 
 
 const parent=React.createElement("div",{id:"parent"},
@@ -19,6 +20,8 @@ React.createElement("h2",{},"I am h2 tag")]
 ) ]
 );
 
-console.log(parent);
+//jsx
+
+console.log(parent); // object
 const root= ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
